@@ -1,0 +1,31 @@
+@media screen and (max-width: 
+1000px){
+  body, html {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-family: arial;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-maior{
+    max-width: 94%;
+  }
+
+  .todo-grid,
+.todo-input-grid{
+display: grid;
+grid-template-columns: 140px 110px 60px;
+column-gap: 5px;
+row-gap: 5px;
+align-items: center;
+}
+
+.todo-input-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+}

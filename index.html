@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="todo-list.css">
+  <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+  <div class="container-maior">
+  <p class="titulo">Lista de tarefas</p>
+
+  <div class="todo-input-grid">
+    <input type="text" placeholder="Tarefa" class="js-name-input name-input" id="input-text" onkeydown="
+  onKeyDown(event);
+  ">
+  
+  <input type="date" class="js-due-date-input dueDate-input" lang="pt-BR">
+
+  <button onclick="
+  addTodo()
+  " class="add-button">Add</button>
+
+  </div>
+  
+  <div class="displayScreen todo-grid">
+    
+  </div>
+</div>
+  <script src="todo-list.js">
+
+
+  </script>
+</body>
+</html>
