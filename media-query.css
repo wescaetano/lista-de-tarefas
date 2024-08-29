@@ -19,7 +19,7 @@
 .todo-input-grid{
 display: grid;
 grid-template-columns: 140px 110px 60px;
-column-gap: 5px;
+column-gap: 10px;
 row-gap: 5px;
 align-items: center;
 }
