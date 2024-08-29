@@ -12,13 +12,13 @@
   }
 
   .container-maior{
-    max-width: 94%;
+    max-width: 92%;
   }
 
   .todo-grid,
 .todo-input-grid{
 display: grid;
-grid-template-columns: 140px 110px 60px;
+grid-template-columns: 105px 105px 55px;
 column-gap: 10px;
 row-gap: 5px;
 align-items: center;
